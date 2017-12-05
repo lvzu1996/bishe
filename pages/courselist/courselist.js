@@ -1,0 +1,25 @@
+Page({
+    data:{
+        courselist:[{
+            date:'2017-11-12',
+            classroom:'2-201',
+            teacher:'lvzu',
+            subject:'math'
+        },{
+            date:'2017-11-12',
+            classroom:'2-201',
+            teacher:'lvzu',
+            subject:'math'
+        },{
+            date:'2017-11-12',
+            classroom:'2-201',
+            teacher:'lvzu',
+            subject:'math'
+        },{
+            date:'2017-11-12',
+            classroom:'2-201',
+            teacher:'lvzu',
+            subject:'math'
+        },]
+    }
+})

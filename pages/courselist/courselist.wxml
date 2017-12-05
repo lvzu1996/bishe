@@ -1,0 +1,18 @@
+<view class='container'>
+    <view class='courselist'>
+        <view class='single-course' wx:for="{{courselist}}" wx:key="item.id">
+            <view>
+               {{item.date}}
+            </view>
+            <view>
+                {{item.classroom}}
+            </view>
+            <view>
+                {{item.teacher}}
+            </view>
+            <view>
+                {{item.subject}}
+            </view>
+        </view>
+    </view>
+</view>

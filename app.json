@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detailinfo/detailinfo",
+    "pages/courselist/courselist"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e25d55",
+    "navigationBarTitleText": "兴趣班开团",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "borderStyle":"white",
+    "selectedColor":"#294057",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"./tabBar_img/index.png",
+        "selectedIconPath":"./tabBar_img/index_on.png"
+      },
+      {
+        "pagePath": "pages/getGroup/getGroup",
+        "text": "拼团",
+        "iconPath":"./tabBar_img/publish.png",
+        "selectedIconPath":"./tabBar_img/publish_on.png"
+      },
+      {
+        "pagePath": "pages/myrecord/myrecord",
+        "text": "我的记录",
+        "iconPath":"./tabBar_img/me.png",
+        "selectedIconPath":"./tabBar_img/me_on.png"
+      }
+    ]
+  }
+}
