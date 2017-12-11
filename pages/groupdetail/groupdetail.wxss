@@ -1,0 +1,69 @@
+/* #swiperp{
+    height: 1100%;
+} */
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+#groupdetail-swiper{
+    position: relative;
+    width: 100%;
+    height: 700rpx;
+}
+
+#swiper-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20rpx;
+    bottom: 60rpx;
+    background-color: #808080;
+    opacity: .7;
+    z-index: 9999;
+    width: 100rpx;
+    height: 100rpx;
+    font-size: 30rpx;
+    color:#fff;
+    border-radius:50%;
+}
+
+.slide-image{
+    width: 100%;
+    height: 100%;
+}
+
+.groupdetail-detail{
+    padding: 0 10rpx;
+}
+
+.detail-text{
+    font-size: 30rpx;
+}
+
+.detail-price-share{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-prices{
+    margin-top: 10rpx;
+    display: flex;
+    font-size: 35rpx;
+}
+.price{
+    color:#e2756f;
+    font-weight: bold;
+}
+.oldprice{
+    text-decoration:line-through;
+    padding-left: 10rpx;
+}
+
+.share{
+    width: 200rpx;
+    height: 100rpx;
+    background-image: url('http://lvzu-imgs.oss-cn-hangzhou.aliyuncs.com/share.svg') ;
+}

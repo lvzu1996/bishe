@@ -1,0 +1,89 @@
+.getgroup-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27rpx;
+    height: 110rpx;
+    background-color: #f4f7fc;
+    color: #878D99;
+}
+
+#getgroup-clock{
+    width:40rpx;
+    height: 40rpx;
+}
+#getgroup-toptext{
+    padding-left: 30rpx;
+}
+
+.getgroup-list{
+    border-bottom: 10rpx solid rgb(198, 200, 206);
+}
+
+.getgroup-singlelist{
+    padding-top: 20rpx;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10rpx solid rgb(216, 217, 218);
+}
+
+.singlelist-totality{
+    position: absolute;
+    display: flex;
+    z-index: 9999;
+    left: 0;
+    color:#fff;
+    background-image: linear-gradient( 135deg, #F6D242 10%, #FF52E5 100%);
+    text-align: center;
+    width: 140rpx;
+    font-size: 30rpx;
+    top:45rpx;
+    height:60rpx;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 15rpx 15rpx 0;
+}
+
+.singlelist-image{
+    width: 60%;
+}
+
+.singlelist-text{
+    text-align: left;
+    width: 100%;
+    margin-top: 20rpx;
+    font-size: 30rpx;
+}
+.singlelist-detailinfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 30rpx;
+    padding-bottom: 20rpx;
+}
+
+.singlelist-price{
+    padding-left: 10rpx;
+    font-weight: bold;
+    color:#e25d55;
+}
+
+.singlelist-count{
+    padding-left: 30rpx;
+    font-size: 30rpx; 
+    color:#878D99;
+}
+
+.singlelist-button{
+    margin-right: 15rpx;
+    width: 220rpx;
+    color:#fff;
+    font-size: 35rpx;
+    /* background-color: #f58480; */
+    background-color: #FF6699;
+}

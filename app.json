@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/detailinfo/detailinfo",
-    "pages/courselist/courselist"
+    "pages/courselist/courselist",
+    "pages/grouplist/grouplist",
+    "pages/groupdetail/groupdetail",
+    "pages/test/test"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -13,7 +16,7 @@
   },
   "tabBar":{
     "borderStyle":"white",
-    "selectedColor":"#294057",
+    "selectedColor":"#e25d55",
     "list":[
       {
         "pagePath": "pages/index/index",
@@ -22,10 +25,10 @@
         "selectedIconPath":"./tabBar_img/index_on.png"
       },
       {
-        "pagePath": "pages/getGroup/getGroup",
+        "pagePath": "pages/grouplist/grouplist",
         "text": "拼团",
-        "iconPath":"./tabBar_img/publish.png",
-        "selectedIconPath":"./tabBar_img/publish_on.png"
+        "iconPath":"./tabBar_img/pintuan.png",
+        "selectedIconPath":"./tabBar_img/pintuan_on.png"
       },
       {
         "pagePath": "pages/myrecord/myrecord",

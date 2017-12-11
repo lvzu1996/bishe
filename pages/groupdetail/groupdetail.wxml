@@ -1,0 +1,39 @@
+<!--<scroll-view scroll-y scroll-into-view="{{scrollToView}}" > -->
+<view>
+
+    <swiper indicator-dots="true" id="groupdetail-swiper"
+    autoplay="true" interval="5000" duration="1000">
+    <view id="swiper-detail" bindtap="_getDetail">
+        <span style="padding-left:21rpx;">图文详情</span>
+    </view>
+    <block wx:for="{{imgUrls}}" wx:key="unique">
+        <swiper-item>
+        <image src="{{item}}" class="slide-image" mode="aspectFit"/>
+        </swiper-item>
+    </block>
+    </swiper>
+    <view class="groupdetail-detail">
+        <view class="detail-text">
+            {{basicInfos.text}}
+        </view>
+        <view class="detail-price-share">
+            <view class="detail-prices">
+                <view class="price">
+                    ￥{{basicInfos.price}}
+                </view>
+                <view class="oldprice">
+                    ￥{{basicInfos.oldprice}}
+                </view>
+            </view>
+            <button open-type="share" class="share">分享</button>
+        </view>
+        <view class="detail-promise">
+            
+        </view>
+        <view class="detail-explain">
+            
+        </view>
+    </view>
+    
+</view>
+<!--</scroll-view>-->

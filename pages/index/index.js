@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 import {getWindowW} from '../../utils/util'
-
+const TEXT = true
 const app = getApp()
 
 Page({
@@ -44,6 +44,7 @@ Page({
     })
   },
   onLoad: function () {
+
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
