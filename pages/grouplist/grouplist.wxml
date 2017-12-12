@@ -1,7 +1,7 @@
 <view>
     <view class="getgroup-top">
-        <image src="./resources/imgs/clock.svg" id="getgroup-clock"/>
-        <span id="getgroup-toptext">每天十点上新</span>
+        <image src="./resources/imgs/clock.svg"/>
+        <span>每天十点上新</span>
     </view>
 
     <view class="getgroup-list">
@@ -9,14 +9,14 @@
             <view class="singlelist-totality">
                 30人团
             </view>
-            <image class="singlelist-image" mode="widthFix" src='{{item.avatar}}'/>
+            <image mode="widthFix" src='{{item.avatar}}'/>
             <view class="singlelist-text">{{item.info}}</view>
             <view class="singlelist-detailinfo">
                 <view>
                     <span class="singlelist-price">￥{{item.price}}</span>
                     <span class="singlelist-count">已团{{item.existingmember}}件</span>
                 </view>
-                <button class="singlelist-button" bindtap="_setupGroup"> 去开团 </button>
+                <button bindtap="_setupGroup"> 去开团 </button>
             </view>
         </view>
     </view>

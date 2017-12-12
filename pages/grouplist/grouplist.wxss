@@ -8,11 +8,11 @@
     color: #878D99;
 }
 
-#getgroup-clock{
+.getgroup-top image {
     width:40rpx;
     height: 40rpx;
 }
-#getgroup-toptext{
+.getgroup-top span{
     padding-left: 30rpx;
 }
 
@@ -48,7 +48,7 @@
     border-radius: 0 15rpx 15rpx 0;
 }
 
-.singlelist-image{
+.getgroup-singlelist  image{
     width: 60%;
 }
 
@@ -79,7 +79,7 @@
     color:#878D99;
 }
 
-.singlelist-button{
+.singlelist-detailinfo button {
     margin-right: 15rpx;
     width: 220rpx;
     color:#fff;

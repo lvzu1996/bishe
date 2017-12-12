@@ -89,7 +89,7 @@ Page({
     var ename = e.currentTarget.dataset.ename
     if(ename === 'courselist'){
       wx.navigateTo({
-        url: `../courselist/courselist`
+        url: `/pages/courselist/courselist`
       })
     }
     

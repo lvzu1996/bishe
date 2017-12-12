@@ -6,7 +6,8 @@
     "pages/courselist/courselist",
     "pages/grouplist/grouplist",
     "pages/groupdetail/groupdetail",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/me/me"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -31,8 +32,8 @@
         "selectedIconPath":"./tabBar_img/pintuan_on.png"
       },
       {
-        "pagePath": "pages/myrecord/myrecord",
-        "text": "我的记录",
+        "pagePath": "pages/me/me",
+        "text": "我的拼团",
         "iconPath":"./tabBar_img/me.png",
         "selectedIconPath":"./tabBar_img/me_on.png"
       }

@@ -14,6 +14,13 @@ Page({
         oldprice:'36',
         existingmember:1676,
       },
+      detailImages:[
+        'http://lvzu-imgs.oss-cn-hangzhou.aliyuncs.com/classroom/1.jpg',
+        'http://lvzu-imgs.oss-cn-hangzhou.aliyuncs.com/classroom/2.jpg',
+        'http://lvzu-imgs.oss-cn-hangzhou.aliyuncs.com/classroom/3.jpg',
+        'http://lvzu-imgs.oss-cn-hangzhou.aliyuncs.com/classroom/4.jpg',
+        'http://lvzu-imgs.oss-cn-hangzhou.aliyuncs.com/classroom/5.jpg',
+      ] 
     },
 
     onLoad:function(options){
@@ -23,6 +30,20 @@ Page({
       wx.showShareMenu({
         withShareTicket: true
       })
+      // 通过id获取相应拼团详情
+      // wx.request({
+      //   url: 'test.php', //仅为示例，并非真实的接口地址
+      //   data: {
+      //     x: '',
+      //     y: ''
+      //   },
+      //   header: {
+      //     'content-type': 'application/json' // 默认值
+      //   },
+      //   success: function (res) {
+      //     console.log(res.data)
+      //   }
+      // })
     },
 
     _getDetail:function(){
@@ -47,6 +68,30 @@ Page({
           // 转发失败
         }
       }
-    }
+    },
+
+    _toHome:function(){
+      wx.switchTab({
+        url: '/pages/index/index'
+      })
+    },
+
+    _soleBuy:function(){
+      wx.showLoading({
+        title: '正在跳转支付',
+      })
+      setTimeout(function () {
+        wx.hideLoading()
+      }, 2000)
+    },
+
+    _groupBuy:function(){
+      wx.showLoading({
+        title: '正在跳转支付',
+      })
+      setTimeout(function () {
+        wx.hideLoading()
+      }, 2000)
+    },
     
   })

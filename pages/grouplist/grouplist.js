@@ -54,8 +54,15 @@ Page({
     //       })
     //     }
     //   })
+        
    },
-
+    onPullDownRefresh: function () {
+        wx.showToast({
+            title: '每天十点上新',//提示信息
+            icon: 'success',//成功显示图标
+            duration: 400//时间
+        })
+    },
    _setupGroup:function(id){
     wx.navigateTo({
         url: `../groupdetail/groupdetail?id=${id}`
